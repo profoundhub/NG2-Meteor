@@ -13,11 +13,25 @@ var core_1 = require('@angular/core');
 var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 var Socially = (function () {
     function Socially() {
+        this.parties = [
+            { 'name': 'Dubstep-Free Zone',
+                'description': 'Can we please just for an evening not listen to dubstep.',
+                'location': 'Palo Alto'
+            },
+            { 'name': 'All dubstep all the time',
+                'description': 'Get it on!',
+                'location': 'Palo Alto'
+            },
+            { 'name': 'Savage lounging',
+                'description': 'Leisure suit required. And only fiercest manners.',
+                'location': 'San Francisco'
+            }
+        ];
     }
     Socially = __decorate([
         core_1.Component({
             selector: 'app',
-            templateUrl: 'client/app.html'
+            templateUrl: 'client/app.html',
         }), 
         __metadata('design:paramtypes', [])
     ], Socially);
