@@ -12,7 +12,7 @@ require('reflect-metadata');
 var core_1 = require('@angular/core');
 var angular2_meteor_auto_bootstrap_1 = require('angular2-meteor-auto-bootstrap');
 var parties_1 = require('../collections/parties');
-var app_html_1 = require('app.html');
+var app_html_1 = require('client/app.html');
 var Socially = (function () {
     function Socially() {
         this.parties = parties_1.Parties.find();

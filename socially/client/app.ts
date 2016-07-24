@@ -4,7 +4,7 @@ import { bootstrap } from 'angular2-meteor-auto-bootstrap';
 import { Parties }   from '../collections/parties';
 import { Mongo }     from 'meteor/mongo';
 
-import template from 'app.html';
+import template from 'client/app.html';
 
 @Component({
   selector: 'app',
