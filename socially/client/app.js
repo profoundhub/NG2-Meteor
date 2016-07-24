@@ -11,14 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 require('reflect-metadata');
 var core_1 = require('@angular/core');
 var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
-var app_html_1 = require('./app.html');
 var Socially = (function () {
     function Socially() {
     }
     Socially = __decorate([
         core_1.Component({
             selector: 'app',
-            template: app_html_1.default
+            templateUrl: 'client/app.html'
         }), 
         __metadata('design:paramtypes', [])
     ], Socially);
