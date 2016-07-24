@@ -1,10 +1,10 @@
 import 'reflect-metadata';
 import { Component } from '@angular/core';
-import { bootstrap } from '@angular/platform-browser-dynamic';
+import { bootstrap } from 'angular2-meteor-auto-bootstrap';
 
 @Component({
   selector: 'app',
-  templateUrl: 'app.html',
+  templateUrl: 'client/app.html',
 })
 
 class Socially {
