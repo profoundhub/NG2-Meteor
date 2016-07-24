@@ -10,7 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 require('reflect-metadata');
 var core_1 = require('@angular/core');
-var angular2_meteor_auto_bootstrap_1 = require('angular2-meteor-auto-bootstrap');
+var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
+var app_html_1 = require('./app.html');
 var Socially = (function () {
     function Socially() {
         this.parties = [
@@ -31,10 +32,11 @@ var Socially = (function () {
     Socially = __decorate([
         core_1.Component({
             selector: 'app',
+            template: app_html_1.default
         }), 
         __metadata('design:paramtypes', [])
     ], Socially);
     return Socially;
 }());
-angular2_meteor_auto_bootstrap_1.bootstrap(Socially);
+platform_browser_dynamic_1.bootstrap(Socially);
 //# sourceMappingURL=app.js.map
