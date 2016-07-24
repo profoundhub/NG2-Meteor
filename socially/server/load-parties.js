@@ -1,7 +1,7 @@
 "use strict";
-var parties_1 = require('../collections/parties');
+var parties_ts_1 = require('../collections/parties.ts');
 function loadParties() {
-    if (parties_1.Parties.find({}).count() === 0) {
+    if (parties_ts_1.Parties.find().count() === 0) {
         var parties = [
             {
                 'name': 'Dubstep-Free Zone',
@@ -20,7 +20,7 @@ function loadParties() {
             }
         ];
         for (var i = 0; i < parties.length; i++) {
-            parties_1.Parties.insert(parties[i]);
+            parties_ts_1.Parties.insert(parties[i]);
         }
     }
 }
