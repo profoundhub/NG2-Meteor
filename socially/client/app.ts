@@ -4,7 +4,7 @@ import { bootstrap } from 'angular2-meteor-auto-bootstrap';
 import { Parties }   from '../collections/parties';
 import { Mongo }     from 'meteor/mongo';
 
-import template from 'client/app.html';
+import template from './app.html';
 
 @Component({
   selector: 'app',
@@ -13,7 +13,7 @@ import template from 'client/app.html';
 class Socially {
   parties: Mongo.Cursor<Object>;
 
-  constructor() {
+  constructor () {
     this.parties = Parties.find();
   }
 }
