@@ -1,7 +1,7 @@
 "use strict";
 var parties_ts_1 = require('../collections/parties.ts');
 function loadParties() {
-    if (parties_ts_1.Parties.find().count() === 0) {
+    if (parties_ts_1.Parties.find({}).count() === 0) {
         var parties = [
             {
                 'name': 'Dubstep-Free Zone',
