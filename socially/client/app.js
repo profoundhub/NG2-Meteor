@@ -31,7 +31,7 @@ var Socially = (function () {
     Socially = __decorate([
         core_1.Component({
             selector: 'app',
-            templateUrl: 'client/app.html',
+            templateUrl: 'app.html',
         }), 
         __metadata('design:paramtypes', [])
     ], Socially);

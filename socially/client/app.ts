@@ -4,12 +4,12 @@ import { bootstrap } from '@angular/platform-browser-dynamic';
 
 @Component({
   selector: 'app',
-  templateUrl: 'client/app.html',
+  templateUrl: 'app.html',
 })
 
 class Socially {
   parties: Array<Object>;
-  
+
   constructor() {
     this.parties = [
       {'name': 'Dubstep-Free Zone',
